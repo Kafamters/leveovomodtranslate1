@@ -72,7 +72,7 @@ if  EID then
     EID:addCollectible(ItemID.Id8,'At the beginning of each floor, 2 {{SoulHeart}} soul hearts are spawns, and a whole room fills with poops.#Using pills will flush away non-boss enemies','Poop ball','en_us')--第8个道具(被动)
     EID:addCollectible(ItemID.Id9,'When holding this item, generate all beggars at the start of each floor#After use, spawn 2 Golden Penny',"Beggars' Guild Token",'en_us')--第9个道具(主动)
     EID:addCollectible(ItemID.Id10,'Entering a new room, spawn a friendly Baby Plum#{{Collectible565}} Get 3 Blood Puppy','Cute Pet','en_us')--第10个(被动)
-    EID:addCollectible(ItemID.Id11,'Spawn 2 random items#After use, duplicate itself and add to the pocket active#Each new room has a Lamb when holding this item#When holding this item,the summoned lamb is enhanced#Does not affect the lambs in the Dark Room','Nightmares and Sweet Dreams','en_us')--第11个(主动)
+    EID:addCollectible(ItemID.Id11,'Spawn 2 random items#While holding this item, there will be a lamb in each new room#While holding this item, the lamb summoned when entering a new floor will be stronger#Does not affect the lambs in the Dark Room','Nightmares and Sweet Dreams','en_us')--第11个(主动)
     EID:addCollectible(ItemID.Id12,'↑ + 5{{Luck}}Luck#Damage{{Damage}}×1.5#↑ - 0.3{{Shotspeed}}Shotspeed#↑ +3 Health#↑ + 5{{Damage}}Damage','Potato','en_us')--第12个(被动)
     EID:addCollectible(ItemID.Id13,'Enterin a new room, remove this item and give all 12 zodiac items (gives Taurus(Modified))','12','en_us')--第13个(被动)
     EID:addCollectible(ItemID.Id14,'The effect is the same as {{Collectible636}} R key#After use, remove all of your items but keep a maximum of 4 items#This item is fixed to spawn on the 8th floor#{{ColorYellow}}One-time use!{{CR}}','Broken R key','en_us')
@@ -118,6 +118,25 @@ if  EID then
                                     '#Golden Penny: Get one{{Crafting26}}',
                                     'Coin',
                                     'en_us')
+    EID:addCollectible(ItemID.Id51,'+12{{Heart}}Heart Container'..
+                                    '#Firing tears grants, +2{{BrokenHeart}} Broken Heart, -2{{Heart}} Heart Container'..
+                                    '#{{Damage}} 1.5 x Damage'..
+                                    '#{{Luck}} -20 Luck'..
+                                    '#{{Shotspeed}} -0.8 Shot Speed'..
+                                    '#Killing enemies triggers rage, killing enemies in rage mode delay the rage time'..
+                                    '#In rage state, killing enemies grants +1{{Heart}} Heart Container, -1 {{BrokenHeart}} Broken Heart, and restores half {{Heart}} Red Heart'..
+                                    '#Killing enemies will make player shouts'..
+                                    '#Entering a new floor will decerease 5 {{Hearth}} Heart Containers'..
+                                    "#{{Player35}}Tainted Forgotten,pull Tainted Forgotten's body into Tainted Soul's hands",
+                                    'Mental Illness Certificate',
+                                    'en_us')
+                                      
+                                    
+    
+
+
+
+
 end
 
 
